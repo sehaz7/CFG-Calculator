@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CFG Calculator</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <table cellpadding="5" cellspacing="5" width="600">
+      <tr class="result" align="center">
+        <td id="demo" colspan="3">Select a function to begin...</td>
+      </tr>
+      <tr>
+        <td align="center"><button onclick="sum()">+</button></td>
+        <td align="center"><button onclick="subtract()">-</button></td>
+        <td align="center"><button onclick="multiply()">x</button></td>
+      </tr>
+      <tr>
+        <td align="center"><button onclick="divide()">/</button></td>
+        <td align="center"><button onclick="power()">^</button></td>
+        <td align="center"><button onclick="squareRoot()"><span style="white-space: nowrap; font-size:larger">&radic;</span></button></td>
+      </tr>
+      <tr align="center">
+        <td align="center" colspan="3"><button onclick="allClear()">AC</button></td>
+      </tr>
+    </table>
+  </body>
+  <footer>This calculator is part of Code First Girls course.</footer>
+</html>
